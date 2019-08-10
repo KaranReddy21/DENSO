@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int x,p,dp;
+printf("enter Coffee rate",x);
+scanf("%d",&x);
+printf("enter discount",p);
+scanf("%d",&p);
+while(x)
+{
+dp=x*p/100;
+x=x-dp;
+}
+printf("%d is discountprice",dp);
+}
